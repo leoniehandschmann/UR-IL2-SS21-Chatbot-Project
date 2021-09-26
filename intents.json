@@ -1,0 +1,31 @@
+
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello", "hi", "hey", "what's up?", "how you doing?"],
+  "responses": ["Hello! How are you?", "Hi, how are you doing?", "Hey! How was your day?"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["bye", "bye bye", "have a nice day", "ciao", "goodbye"],
+    "responses": ["Bye!" , "Hope we talk again soon!", "Have a nice day!", "Goodbye my friend!", "Bye bye!"]
+  },
+  {"tag": "name",
+    "patterns": ["what's your name", "who are you?"],
+    "responses": ["My name is Happy, Happy the Chatbot!" , "Nice to meet you, I am Happy and what's your name?", "Who are you?", "Nice to meet you!"]
+  },
+  {"tag": "happy",
+    "patterns": ["good", "fine", "great", "happy" ],
+    "responses": ["Great to hear! Do you still want to see something funny? Write 'sunflower'."]
+  },
+  {"tag": "sad",
+    "patterns": ["sad", "down", "unhappy", "depressed", "miserable", "not good", "not that good"],
+    "responses": ["I'm sorry to hear that! Do you want to be cheered up? Write 'ocean'."]
+  },
+  {"tag": "images",
+    "patterns": ["sunflower", "ocean"],
+    "responses": ["img/1.png", "img/2.png", "img/3.png", "img/4.png" , "img/5.png" , "img/6.png", "img/7.png" ,"img/8.png" ,"img/9.png", "img/10.png", "img/11.png", "img/12.png", "img/13.png", "img/14.png", "img/15.png", "img/16.png", "img/17.png", "img/18.png", "img/19.png", "img/20.png", "img/21.png", "img/22.png", "img/23.png"]
+  },
+  {"tag": "invalid",
+    "patterns": [" "],
+    "responses": ["Sorry, I don't understand. Could you please say that again :)"]
+  }
+]}
