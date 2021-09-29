@@ -38,9 +38,9 @@ for intent in intents['intents']:
 
 # lemmatizing der words list
 words = [lemmatizer.lemmatize(lemmatizer, word) for word in words if word not in ignore_letters]
+
 # sortiert wird nach dem Alphabet; Duplikate werden entfernt
 words = sorted(set(words))
-
 classes = sorted(set(classes))
 
 # die Listen werden hier als pickle file gespeichert
@@ -91,3 +91,5 @@ hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5,
 model.save('chatbotmodel.h5', hist)
 
 print("Done loading training data!")
+
+
