@@ -10,11 +10,11 @@
   },
   {"tag": "name",
     "patterns": ["what's your name", "who are you?"],
-    "responses": ["My name is Happy, Happy the Chatbot!" , "Nice to meet you, I am Happy and what's your name?", "Who are you?", "Nice to meet you!"]
+    "responses": ["My name is Happy, Happy the Chatbot!" , "Nice to meet you, I am Happy :)", "Nice to meet you!"]
   },
   {"tag": "ability",
     "patterns": ["what's your ability?", "what can you do?", "what are you doing?"],
-    "responses": ["I am here to make you happy :)", "I'm here to make you laugh!", "I can show you funny memes oder cute and fun animal pictures, if you want to ;)"]
+    "responses": ["I am here to make you happy :) Just tell me how you feel today.", "I'm here to make you laugh!Just tell me how you feel today.", "I can show you funny memes or cute and fun animal pictures, if you want to ;) Just tell me how you feel today."]
   },
   {"tag": "happy",
     "patterns": ["good", "fine", "great", "happy", "lucky" ],
