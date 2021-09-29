@@ -12,17 +12,29 @@
     "patterns": ["what's your name", "who are you?"],
     "responses": ["My name is Happy, Happy the Chatbot!" , "Nice to meet you, I am Happy and what's your name?", "Who are you?", "Nice to meet you!"]
   },
+  {"tag": "ability",
+    "patterns": ["what's your ability?", "what can you do?", "what are you doing?"],
+    "responses": ["I am here to make you happy :)", "I'm here to make you laugh!", "I can show you funny memes oder cute and fun animal pictures, if you want to ;)"]
+  },
   {"tag": "happy",
-    "patterns": ["good", "fine", "great", "happy" ],
-    "responses": ["Great to hear! Do you still want to see something funny? Write 'sunflower'."]
+    "patterns": ["good", "fine", "great", "happy", "lucky" ],
+    "responses": ["Great to hear! Do you still want to see something funny? Write 'ocean'. If you want to see some cute and funny animals, write 'sunflower'."]
   },
   {"tag": "sad",
-    "patterns": ["sad", "down", "unhappy", "depressed", "miserable", "not good", "not that good"],
-    "responses": ["I'm sorry to hear that! Do you want to be cheered up? Write 'ocean'."]
+    "patterns": ["sad", "down", "unhappy", "depressed", "miserable", "not good", "not that good", "bad"],
+    "responses": ["I'm sorry to hear that! Do you want to be cheered up? Write 'ocean'.If you want to see some cute and funny animals, write 'sunflower'."]
   },
-  {"tag": "images",
-    "patterns": ["sunflower", "ocean"],
-    "responses": ["img/1.png", "img/2.png", "img/3.png", "img/4.png" , "img/5.png" , "img/6.png", "img/7.png" ,"img/8.png" ,"img/9.png", "img/10.png", "img/11.png", "img/12.png", "img/13.png", "img/14.png", "img/15.png", "img/16.png", "img/17.png", "img/18.png", "img/19.png", "img/20.png", "img/21.png", "img/22.png", "img/23.png"]
+  {"tag": "images_memes",
+    "patterns": ["ocean"],
+    "responses": ["img/memes/1.png", "img/memes/2.png", "img/memes/3.png", "img/memes/4.png" , "img/memes/5.png" , "img/memes/6.png", "img/memes/7.png" ,"img/memes/8.png" ,"img/memes/9.png", "img/memes/10.png", "img/memes/11.png", "img/memes/12.png", "img/memes/13.png", "img/memes/14.png", "img/memes/15.png", "img/memes/16.png", "img/memes/17.png", "img/memes/18.png", "img/memes/19.png", "img/memes/20.png", "img/memes/21.png", "img/memes/22.png", "img/memes/23.png", "img/memes/24.png", "img/memes/25.png", "img/memes/26.png", "img/memes/27.png", "img/memes/28.png", "img/memes/29.png", "img/memes/30.png"]
+  },
+  {"tag": "images_animals",
+    "patterns": ["sunflower"],
+    "responses": ["img/animals/1a.jpg", "img/animals/2a.jpg", "img/animals/3a.jpg", "img/animals/4a.jpg", "img/animals/5a.jpg", "img/animals/6a.jpg", "img/animals/7a.jpg", "img/animals/8a.jpg", "img/animals/9a.jpg", "img/animals/10a.jpg", "img/animals/11a.jpg", "img/animals/12a.jpg", "img/animals/13a.jpg", "img/animals/14a.jpg", "img/animals/15a.jpg", "img/animals/16a.jpg", "img/animals/17a.jpg", "img/animals/18a.jpg", "img/animals/19a.jpg", "img/animals/20a.jpg", "img/animals/21a.jpg", "img/animals/22a.jpg", "img/animals/23a.jpg", "img/animals/24a.jpg", "img/animals/25a.jpg", "img/animals/26a.jpg", "img/animals/27a.jpg", "img/animals/28a.jpg", "img/animals/29a.jpg", "img/animals/30a.jpg"]
+  },
+  {"tag": "images_random",
+    "patterns": ["random"],
+    "responses": ["img/animals/1a.jpg", "img/animals/2a.jpg", "img/animals/3a.jpg", "img/animals/4a.jpg", "img/animals/5a.jpg", "img/animals/6a.jpg", "img/animals/7a.jpg", "img/animals/8a.jpg", "img/animals/9a.jpg", "img/animals/10a.jpg", "img/animals/11a.jpg", "img/animals/12a.jpg", "img/animals/13a.jpg", "img/animals/14a.jpg", "img/animals/15a.jpg", "img/animals/16a.jpg", "img/animals/17a.jpg", "img/animals/18a.jpg", "img/animals/19a.jpg", "img/animals/20a.jpg", "img/animals/21a.jpg", "img/animals/22a.jpg", "img/animals/23a.jpg", "img/animals/24a.jpg", "img/animals/25a.jpg", "img/animals/26a.jpg", "img/animals/27a.jpg", "img/animals/28a.jpg", "img/animals/29a.jpg", "img/animals/30a.jpg", "img/memes/1.png", "img/memes/2.png", "img/memes/3.png", "img/memes/4.png" , "img/memes/5.png" , "img/memes/6.png", "img/memes/7.png" ,"img/memes/8.png" ,"img/memes/9.png", "img/memes/10.png", "img/memes/11.png", "img/memes/12.png", "img/memes/13.png", "img/memes/14.png", "img/memes/15.png", "img/memes/16.png", "img/memes/17.png", "img/memes/18.png", "img/memes/19.png", "img/memes/20.png", "img/memes/21.png", "img/memes/22.png", "img/memes/23.png", "img/memes/24.png", "img/memes/25.png", "img/memes/26.png", "img/memes/27.png", "img/memes/28.png", "img/memes/29.png", "img/memes/30.png"]
   },
   {"tag": "invalid",
     "patterns": [" "],
